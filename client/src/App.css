@@ -1,0 +1,73 @@
+/* Global Styles */
+:root {
+  --primary-color: #1abdb2;
+  --secondary-color: #ffbb01;
+  --bg1-color: #f5f7fb;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --primary-text-color: #7782a2;
+  --primary-font: 'Shabnam';
+  --secondary-font: 'Yekan-Bakh';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+@font-face {
+  font-family: 'Shabnam';
+  src: url('fonts/Shabnam.eot');
+  src: url('fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Shabnam.woff') format('woff'),
+    url('fonts/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yekan-Bakh';
+  src: url('fonts/Yekan-Bakh.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yekan-Bakh-heavy';
+  src: url('fonts/Yekan-Bakh-heavy.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 0.94rem;
+  line-height: 1.6;
+  background-color: var(--bg1-color);
+  color: #333;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding: 0 160px;
+  height: calc(100vh - 100px);
+}

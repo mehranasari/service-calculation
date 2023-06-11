@@ -1,0 +1,94 @@
+.navbar ul{
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul.navbar-links {
+  padding-right: 140px;
+}
+
+.navbar ul.navbar-auth {
+  margin: 0 90px 0 0;
+}
+
+.navbar ul.navbar-actions {
+  margin: 0 auto 0 0;
+}
+
+.navbar-links li {
+  padding: 2rem;
+  margin: 0 .25rem;
+}
+
+.navbar-links li a{
+  color: var(--primary-text-color);
+  font-size: 15px;
+}
+
+.navbar-actions li {
+  padding: 1rem;
+  margin: 0 .25rem;
+  color: #a4b6d6;
+
+}
+
+.navbar-actions li span{
+  font-size: 20px;
+  color: var(--primary-text-color);
+}
+
+.navbar-auth li {
+  padding: 11px 1.5rem;
+  margin: 0 .25rem;
+}
+
+.navbar-actions .language-fa{
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+.navbar-auth .signup-btn{
+  border: 1.5px solid var(--primary-color);
+  border-radius: 16px;
+}
+
+.navbar li span {
+  padding-left: 8px;
+  vertical-align: middle;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  padding: 0px 160px;
+}
+
+.navbar h1{
+  font-family: var(--secondary-font);
+  font-size: 28.5px;
+  display: flex;
+}
+
+.navbar-logo{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img{
+  width: 48px;
+}
+
+.navbar-logo h1{
+  padding-right: 6px;
+}
+
+.navbar-logo h1 span{
+  padding-left: 6px;
+}
+
+.navbar h1 span{
+  font-family: 'Yekan-Bakh-heavy';
+  font-size: 28.5px;
+}

@@ -1,0 +1,50 @@
+section.landing{
+  padding: 100px 0 70px 0;
+}
+
+.landing h2{
+  font-size: 40px;
+  color: var(--primary-text-color);
+  font-weight: unset;
+}
+
+.landing h2 img{
+  vertical-align: middle;
+  padding-left: 12px;
+}
+
+div.sub-landing{
+  padding-right: 50px;
+}
+
+ul.receipt-actions{
+  display: flex;
+}
+
+ul.receipt-actions li{
+  padding: 2.2rem 0 2.2rem 6rem;
+  font-size: 22px;
+  display: flex;
+  opacity: 0;
+}
+
+ul.receipt-actions li a{
+  color: #bcc2d1;
+}
+
+ul.receipt-actions .active{
+  color: var(--primary-text-color);
+  transition: ease all 10s;
+}
+
+ul.receipt-actions li a .radio-btn{
+  vertical-align: middle;
+  padding-left: 12px;
+  transition: ease all 10s;
+}
+
+ul.receipt-actions li a span.active{
+  color: #ffbb01;
+  font-weight: 900;
+  transition: ease all 10s;
+}
